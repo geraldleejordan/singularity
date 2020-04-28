@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Categories
-permalink: /categories/
+permalink: https://geraldleejordan.com/group-narratives/categories/
 ---
 
 The posts on this site are in categories and listed below in sequence from newer to older.
