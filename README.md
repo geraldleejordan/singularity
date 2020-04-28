@@ -1,3 +1,5 @@
-# Data Science
+# Website files
 
-Placeholder
+These are the files for my website.
+
+Copyright Lee Jordan
