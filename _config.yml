@@ -1,0 +1,27 @@
+# Setup
+title:               Group Narratives
+tagline:             'facilitating narrative therapy for groups'
+description:         'Group Narrative Therapy'
+url:                 https://geraldleejordan.com/group-narratives
+baseurl:             /
+paginate:            5
+permalink:           pretty
+
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: /:title/
+
+# About/contact
+author:
+  name:              Lee Jordan
+  url:               https://twitter.com/geraldleejordan
+  email:             geraldleejordan@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version: 1.0.0
+google_analytics_id: #UA-XXXX-Y
+timezone: Pacific/Auckland
+future: false
