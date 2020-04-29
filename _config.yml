@@ -3,7 +3,7 @@ title:               Group Narratives
 tagline:             'group narrative therapy'
 description:         'Facilitating Group Narrative Therapy'
 url:                 https://geraldleejordan.com
-baseurl:             /group-narratives/
+baseurl:             /
 paginate:            5
 permalink:           pretty
 
