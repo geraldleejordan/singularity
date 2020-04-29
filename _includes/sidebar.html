@@ -9,19 +9,30 @@
   </div>
 
   <nav class="sidebar-nav">
-<span class="sidebar-nav-item"><a href="https://geraldleejordan.com/group-narratives/" rel="nofollow" target="_blank" title="Book Home">home</a></span>
-<span class="sidebar-nav-item"><a href="https://geraldleejordan.com/group-narratives/about/" rel="nofollow" target="_blank" title="About">about</a></span>
-<span class="sidebar-nav-item"><a href="https://geraldleejordan.com/group-narratives/categories/" rel="nofollow" target="_blank" title="Categories">categories</a></span>
-<span class="sidebar-nav-item"><a href="https://geraldleejordan.com/group-narratives/chapters/" rel="nofollow" target="_blank" title="Chapters">chapters</a></span>
-<span class="sidebar-nav-item"><a href="https://geraldleejordan.com/group-narratives/glossary/" rel="nofollow" target="_blank" title="Glossary">glossary</a></span>
-<span class="sidebar-nav-item"><a href="https://geraldleejordan.com/group-narratives/podcasts/" rel="nofollow" target="_blank" title="Podcasts">podcasts</a></span>
-<span class="sidebar-nav-item"><a href="https://geraldleejordan.com/group-narratives/timeline/" rel="nofollow" target="_blank" title="Timeline">timeline</a></span>
-<span class="sidebar-nav-item"><a href="https://twitter.com/geraldleejordan" rel="nofollow" target="_blank" title="Find me on Twitter">twitter</a></span>
+    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+<span class="sidebar-nav-item"><a href="https://instagram.com/geraldleejordan" rel="nofollow" target="_blank" title="Find me on Instagram">Instagram</a></span>   
+<span class="sidebar-nav-item"><a href="https://soundcloud.com/geraldleejordan" rel="nofollow" target="_blank" title="Find me on Soundcloud">Soundcloud</a></span>
+<span class="sidebar-nav-item"><a href="https://twitter.com/geraldleejordan" rel="nofollow" target="_blank" title="Find me on Twitter">Twitter</a></span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }} Lee Jordan
+      &copy; 2015 - {{ site.time | date: '%Y' }} Lee Jordan
     </p>
   </div>
 </div>
