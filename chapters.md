@@ -7,7 +7,7 @@ title: Chapters
  {% assign sorted_posts = (site.categories.['chapters'] | sort: 'title') %}
 {% for post in sorted_posts %}
   <li>
-    <a href="group-narratives/{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
