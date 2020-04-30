@@ -1,8 +1,8 @@
 # Setup
 title:               Title
 tagline:             'lee australis'
-description:         'Draft Novel'
-url:                 https://novel.geraldleejordan.com
+description:         'Draft'
+url:                 https://geraldleejordan.com
 baseurl:             /
 paginate:            5
 permalink:           pretty
