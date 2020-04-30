@@ -3,11 +3,8 @@ layout: page
 title: Review
 ---
 
-The posts on this site are listed below in sequence from newer to older.
+The posts on this site are listed below in update sequence from newer to older.
 
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.review | date: '%Y'" %}
-{% for year in postsByYear %}
-<h2>{{ year.name }}</h2>
 <ul>
 {% for post in year.items %}
 {% assign postYear = post.review | date:"%Y" %}
