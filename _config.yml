@@ -1,8 +1,8 @@
 # Setup
-title:               Title
-tagline:             'gerald lee jordan'
-description:         'Draft'
-url:                 https://novel.geraldleejordan.com
+title:               Group Narratives
+tagline:             'group therapy'
+description:         'Group Therapy Resources'
+url:                 https://therapy.geraldleejordan.com
 baseurl:             /
 paginate:            5
 permalink:           pretty
