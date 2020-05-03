@@ -24,6 +24,6 @@ You can use the contact form <a href="https://nocturnalworks.com/contact" title=
 Lee Jordan, MBA, MEd, MCouns
 
 <div class="pagination">
-    <a class="pagination-item older" href="https://therapy.geraldleejordan.com/">Preface</a>
-      <a class="pagination-item newer" href="https://therapy.geraldleejordan.com/chapter-01/">Chapter One</a>
+    <a class="pagination-item older" href="https://novel.geraldleejordan.com/">Preface</a>
+      <a class="pagination-item newer" href="https://novel.geraldleejordan.com/chapter-01/">Chapter One</a>
 </div>
