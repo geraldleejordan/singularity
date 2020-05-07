@@ -7,7 +7,7 @@ title: About
 
 I got pulled into religion at eight years of age. At nine, I walked forward at church camp, claiming that I would be a missionary. At eighteen, I began religious studies at university, being true to that nine year old. 
 
-I spent almost five years at university, studying theology and history. I completed my degree in 1900. I became a free-thinker (atheist) in 1992. Between 1992 and 2014, I wandered in the wilderness. In 2014, I became a vegetarian and then I became vegan in 2018. I have never returned to religion, but spirituality came to me when I stopped abusing and murdering other beings.
+I spent almost five years at university, studying theology and history. I completed my degree in 1990. I became a free-thinker (atheist) in 1992. Between 1992 and 2014, I wandered in the wilderness. In 2014, I became a vegetarian and then I became vegan in 2018. I have never returned to religion, but spirituality came to me when I stopped abusing and murdering other beings.
 
  <img class="img-border" src="https://geraldleejordan.com/public/assets/images/lee-jordan-programmer.jpg" alt="Lee Jordan">
 
